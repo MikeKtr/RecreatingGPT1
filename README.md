@@ -1,6 +1,6 @@
 # Recreating GPT-1
 
-A PyTorch implementation of a character-level GPT (Decoder-only Transformer) trained from scratch on IBM IMS 15.6 documentation.
+A PyTorch implementation of a character-level GPT (Decoder-only Transformer) trained from scratch on IBM IMS 15.6 documentation in attempt to generate example page of documentation.
 
 ## Project Structure
 
@@ -25,21 +25,28 @@ A PyTorch implementation of a character-level GPT (Decoder-only Transformer) tra
 - **Optimizer**: AdamW (`lr = 1e-3`) with `CosineAnnealingLR` decay scheduler
 - **Performance**: Reaches a final cross-entropy loss of **~1.47** after 5,000 iterations.
 
-## Setup & Running
+## Example Generated Output
 
-### Requirements
-```bash
-pip install torch tqdm pymupdf
-```
+```text
+physical
+subsystem are modificator by namement DEDB parameter.
+Availability mode threstart the haseader.
+IMS RDDSN, user is normal message affound the keystallenteand is particulated in be reorgganized.
+TRAGROCONSP call recovery program. If all to only change sules when tile operatoming to Resyntax returns external non- Name
+Table numbers continues.
+X'94'
+(Senubt Edicate excepts, and data sets. Tose elor table Returned defined-deseting.
+Enly rulate exit routine with this
+command
+command codes of the moder
 
-### Running Training & Text Generation
-To train the model and generate sample text:
-```bash
-python train.py
-```
-
-### Re-cleaning the Corpus
-If you wish to re-process or convert the documentation PDFs:
-```bash
-python scraper/clean_txt.py
+mapping by program to the messagefingth the ETE command trace ability, phasses many all valents, but first sime:
+You use a dopects because the keyby issuing uposing internal.
+The muster delete
+iskey a system betword BB accommumF DMBLID is no included by using the CATIPs in resitue that determined field was installing connectent
+(when has bieh
+remote 121)
+Sever definition and and databases 10
+IPC or IMS processing to the internal posith
+database virsting include the REUQRE's works and
 ```
